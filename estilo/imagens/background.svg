@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: none;
+        stroke: #fff;
+        stroke-width: 12px;
+      }
+
+      .cls-1 {
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path id="Elipse_1" data-name="Elipse 1" class="cls-1" d="M1920,762c175.63,0,318,142.373,318,318s-142.37,318-318,318-318-142.37-318-318S1744.37,762,1920,762Zm0,0c175.63,0,318,142.373,318,318s-142.37,318-318,318-318-142.37-318-318S1744.37,762,1920,762Zm0,0c175.63,0,318,142.373,318,318s-142.37,318-318,318-318-142.37-318-318S1744.37,762,1920,762Zm0,0c175.63,0,318,142.373,318,318s-142.37,318-318,318-318-142.37-318-318S1744.37,762,1920,762Z"/>
+  <circle id="Elipse_2" data-name="Elipse 2" class="cls-2" cx="1746" cy="963" r="318"/>
+  <circle id="Elipse_3" data-name="Elipse 3" class="cls-2" cx="1803" cy="1108" r="636"/>
+</svg>

@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #dfe3ef;
+  background-image: url(./imagens/background.svg);
+}
+
+nav {
+  background-color: #5b6585;
+  width: 100%;
+  height: 40px;
+  text-align: center;
+}
+
+.divs {
+  width: 200px;
+  height: 40px;
+  padding: 5px;
+  position: absolute;
+  left: 50%;
+  display: flex;
+  margin-left: -100px;
+}
+div {
+  width: 100px;
+  text-align: center;
+}
+.btn {
+  padding: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.btncadastrar {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  float: left;
+}
+.btnconsultar {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  float: right;
+}
+a {
+  color: black;
+  text-decoration: none;
+}
+img {
+  width: 470px;
+  height: 256px;
+  margin-top: 60px;
+  margin-left: 20px;
+  float: left;
+}
+.dforms {
+  position: absolute;
+  left: 50%;
+  top: 80px;
+  display: flex;
+  margin-left: -150px;
+}
+.texts {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  float: left;
+}
+.forms {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  float: right;
+}
+.btnf {
+  padding: 2px;
+}
+.consultas {
+  width: 460px;
+  height: 600px;
+  position: absolute;
+  left: 50%;
+  top: 80px;
+  display: flex;
+  margin-left: -150px;
+  overflow-y: scroll;
+}
+.ptodos {
+  position: absolute;
+  left: 50%;
+  top: 50px;
+  display: flex;
+  margin-left: -150px;
+  font-size: 22px;
+}
+article {
+  background-color: #f8f7f7;
+  margin-bottom: 2px;
+  text-align: left;
+  display: grid;
+  grid-template-areas: "profile descricao";
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 150px;
+}
+.divarticle1 {
+  grid-area: profile;
+  width: 100%;
+  margin-top: 10px;
+  margin-left: 10px;
+  text-align: left;
+}
+.divarticle2 {
+  grid-area: descricao;
+  width: 200px;
+  margin: 10px;
+  background-color: white;
+  padding: 5px;
+  text-align: left;
+}
